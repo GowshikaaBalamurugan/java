@@ -52,17 +52,28 @@ public class Runner {
 //          dStack.show();
 //          System.out.println(dStack.peek());
 
-          Queue queue=new Queue();
-          queue.deQueue();
-          queue.enQueue(8);
-          queue.enQueue(18);
-          queue.enQueue(81);
-          queue.enQueue(83);
-          queue.enQueue(86);
-          queue.show();
-          queue.enQueue(86);
-          queue.deQueue();
-          queue.show();
+//          Queue queue=new Queue();
+//          queue.deQueue();
+//          queue.enQueue(8);
+//          queue.enQueue(18);
+//          queue.enQueue(81);
+//          queue.enQueue(83);
+//          queue.enQueue(86);
+//          queue.show();
+//          queue.enQueue(86);
+//          queue.deQueue();
+//          queue.show();
+
+          BinaryTree binaryTree=new BinaryTree();
+          binaryTree.insert(8);
+          binaryTree.insert(7);
+          binaryTree.insert(12);
+          binaryTree.insert(15);
+          binaryTree.insert(2);
+          binaryTree.insert(5);
+          binaryTree.inOrder();
+          binaryTree.preOrder();
+          binaryTree.postOrder();
 
 
     }
